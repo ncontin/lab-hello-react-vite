@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+} */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  width: 100;
+}
+
+.dark-container {
+  background-color: #213547;
+  color: #ffffff;
+  height: 700px;
+  padding: 20px 80px;
+}
+
+.logo-right {
+  width: 15px;
+  height: 10px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.icon {
+  max-width: 160px;
+}
+
+.icon-img {
+  max-width: 100px;
+  margin: 0;
+}
+
+.icon-text {
+  margin: 0 0 0 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.top-container {
+  margin-right: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.awe-button {
+  width: 150px;
+  height: 70px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
